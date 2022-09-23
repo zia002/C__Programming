@@ -1,6 +1,8 @@
 /*
 Print a shape.Enter row & column value.
 this programme will print a shape side.
+By this programme you can print
+ **Square**,**Rectangle**।
 */
 #include<stdio.h>
 void main()
