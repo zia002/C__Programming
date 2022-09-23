@@ -1,5 +1,6 @@
 /*
 Check :Is it Armstrong Number or?
+Armstrong number is a number that is equal to the sum of cubes of its digits
 */
 #include<stdio.h>
 #include<math.h>
@@ -22,6 +23,6 @@ void main()
     }
     else
     {
-        printf("not a a num");
+        printf("not a Armstrong  number");
     }
 }
