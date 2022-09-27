@@ -1,5 +1,5 @@
 /*
-2D matrix(r×c),user will input value for Matrix A & B.
+matrix(r×c),user will input value for Matrix A & B.
 and this programme will print summation & substraction of matrix A & B..
 */
 #include<stdio.h>
