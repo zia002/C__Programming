@@ -1,0 +1,25 @@
+//Input__Output__using__pointer__&_calloc_function:
+#include<stdio.h>
+#include<stdlib.h>
+int main()
+{
+    int i,m;
+    float*ptr2;
+    printf("How many float value?");
+    scanf("%d",&m);
+    /*
+    pointer_name=(type*)calloc(how_many_block,sizeof(data_type))
+    */
+    ptr2=(float*)calloc(m,sizeof(float));
+    printf("Enter Value:");
+    for(i=0;i<m;i++)
+    {
+    scanf("%f",(ptr2+i));
+    }
+    for(i=0;i<m;i++)
+    {
+    printf("%.2f ",*(ptr2+i));
+    }
+    return 0;
+}
+    
